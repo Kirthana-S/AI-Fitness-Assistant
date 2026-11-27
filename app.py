@@ -2,6 +2,7 @@ import streamlit as st
 import os
 from dotenv import load_dotenv
 from openai import OpenAI, OpenAIError
+from vector_store import search_documents
 
 # Load API key
 load_dotenv(
